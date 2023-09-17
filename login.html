@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"/>
+
+     <style>
+      .btn{
+        border: 1px solid rgb(185, 185, 185);
+        color: rgb(168, 167, 167);
+        background-color: rgb(214, 210, 210);
+        font-size: 20px;
+      }
+      .btn:hover{
+        font-size: 20px;
+        color: white;
+        background-color: #f702b6;
+        border: #f702b6;
+      }
+     </style>
+
+  </head>
+  <body>
+
+
+    <header>
+      <nav class="navbar  fixed-top" style="background-color: white; padding: 20px; box-shadow: 5px 5px 5px #cbd3d2;">
+          <div class="container-fluid" >
+              <a class="navbar-brand" href="" style="color: #f702b6; ">
+            <img src="data:image/png;base64,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" alt="Logo" width="35" height="30" class="d-inline-block align-text-center" >
+        foodpanda
+      </a>
+      <ul class="nav justify-content-end" style="color: #f702b6;">
+        <li class="nav-item" style="color: #f702b6;">
+          <li class="nav-item dropdown">
+            <button class="btn-en " data-bs-toggle="dropdown" aria-expanded="false" style= "border: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16" style= "margin-right: 4px;">
+                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+              </svg> EN
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16" style="color: #f702b6; margin-left:9px;">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-light" style="padding: 10px; border-color: transparent;">
+              <li class="dropdown-item" id="dropdown" style="color: black; font-size: 22px; padding: 10px;">English
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16" style="color: #f702b6; margin-left: 20px;">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                </svg>
+              </li>
+            </ul>
+          </li>
+        </li>
+      </ul>
+          </div>
+        </nav>
+      </header>
+
+
+    <div
+      class="container"
+      style="margin-top: 10%; border: 2px solid rgb(240, 233, 233); padding: 40px; height: 20%; border-radius: 14px; width: 30%;box-shadow: 5px 5px 5px 5px #cbd3d2;">
+      <div class="image" >
+        <img style="height: 30%; width: 30%;" src="https://img.freepik.com/premium-photo/full-email-box-received-notifications-newsletter-ideas-concept-with-white-paper-envelope-with-white-999-icon-red-circle-corner-light-pink-background-3d-rendering_670147-22312.jpg?w=740" class="rounded" alt="...">
+      </div>
+            <br>
+      <div style="color: black;">
+        <h1>What's your email?</h1>
+        <br>
+        <h5  style="color: rgb(71, 70, 70);">We'll check if you have an account</h5>
+      </div>
+          <br>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="d-grid">
+        <button class="btn" type="button" style="width: 100%; padding: 10px;">Continue</button>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    .navbar {
+        background-color: white; /* Set the background color to white */
+        
+    }
+    .Resturant {
+        background-image: url('https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwyMzYxOTZ8MHwxfHNlYXJjaHwyfHxDaGVmfGVufDB8MHx8fDE2NDAzMDg3NDI&ixlib=rb-1.2.1&q=80&w=1080');
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Adjust this to control the height of the cover image */
+        margin-top: 20px;
+    }
+
+    /* Style the container */
+    .container-over-image {
+        background-color: rgb(247, 243, 243);
+        padding: 50px;
+        border-radius: 10px;
+        width: 20vh;
+    }
+
+    /* Style the text */
+    .text-black {
+        color: black;
+    }
+
+    .btn-container{
+      background-color: #f702b6;
+      padding: 10px;
+    }
+    .btn-container:hover{
+      box-sizing: border-box;
+      padding: 20px;
+    }
+    .login{
+        border-color: #f702b6;
+        border-radius: 9px;
+        color: #f702b6;
+        border: 1px solid #f702b6;
+        width: 80px;
+    }
+
+    .login:hover{
+        background-color: #e690cf;
+        box-sizing: border-box;
+    }
+    .signup{
+        border-radius: 9px;
+        background-color: #f702b6;
+        color: white;
+        width: 90px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    .signup:hover{
+        box-sizing: border-box;
+    }
+    .btn-en{
+        margin-left: 30px;
+        background-color: transparent;
+        font-size: 20px;
+        color: black;
+        margin-right: 22px;
+        padding: 7px;
+        margin-top: 5px;
+    }
+    .btn-en:hover{
+        background-color: rgb(247, 235, 245);
+        border-radius: 4px;
+    }
+    .footer{
+        color: rgb(96, 98, 100);
+    }
+    .bi-c-circle{
+        color: rgb(96, 98, 100);
+    }
+    hr{
+        color: rgb(170, 173, 177);
+    }
+    .list:hover{
+    color: #e21b70;
+    cursor: pointer;
+    }
+    .country:hover {
+        color: #e21b70;
+        cursor: default; 
+    }
+    
+    .font {
+        font-size: large;
+    }
+    .mobile{
+        background-color: rgb(226 27 112);
+        color: white;
+        width: 70%;
+        height: 50vh;
+        border-radius: 30px;
+    }
+    .qrcode{
+        width: 80px;
+        border: 1px solid white;
+    }
+    .downloadImages{
+        margin-top: -5%;
+    }
+    .mobileImg{
+        margin-top: -6%;
+    }
+    #About{
+        background-color: #f7f7f7;
+        height: 99vh;
+        /* border-radius: 50px; */
+    }
+    #picture{
+        margin-top: -5%;
+        width: 50%;
+        height: 20%;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    #aboutpart1{
+        margin-top: 20%;
+        padding-left: 9%;
+        font-size: 38px;
+    }
+    .location
+    {    
+        background-color: white;
+        width: 100%;
+        height: 15%;
+        margin-left: 9%;
+        padding: 2%;
+        border-radius: 20px;
+    }
+    .find{
+        margin-left: 20px;
+        outline: none;
+        border-radius: 10px;
+        background-color: rgb(226 27 112);
+        color: white ;
+        border: none;
+        font-weight: 500;
+        padding: 4px 13px;   
+        transition: margin 0.2s, padding 0.2s; 
+    
+    }
+    .find:hover{
+        background-color: rgb(167, 39, 56);
+        padding: 6px 15px ;
+        margin: -2px -1px;
+    }
+    .form-control{
+        border-radius: 10px;
+    }
+    .last:hover{
+       color: #f702b6;
+    }
+    
